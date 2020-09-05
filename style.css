@@ -1,0 +1,142 @@
+body {
+	background-image: URL(image/bg.png);
+}
+
+.header {
+	background-image: URL(image/hea.png);
+    background-size: 100% 100%;
+	width: 100%;
+	height:28%;
+	border-radius: 15px;
+	box-shadow: 0 0 10px #000;
+}
+
+.head {
+	position: absolute;
+    top: 60px;
+	left: 1120px;
+	font-size:25px;
+	color: #ffffff;
+	font:caption;
+}
+
+.tel {
+	position: absolute;
+    top: 130px;
+	left: 1120px;
+	font-size:25px;
+	color: #ffffff;
+	font:caption;
+}
+
+p {
+	position: absolute;
+    top: 15px;
+	left: 70px;
+	font-size:25px;
+	color: #ffffff;
+	font:caption;
+}
+
+.ion-laptop {
+	position: absolute;
+    top: 35px;
+	left: 40px;
+	font: menu;
+	font-size: 15px;
+}
+
+.ion-laptop1 {
+	position: absolute;
+    top: 35px;
+	left: 120px;
+	font: menu;
+	font-size: 15px;
+}
+
+.ion-laptop2 {
+	position: absolute;
+    top: 35px;
+	left: 220px;
+	font: menu;
+	font-size: 15px;
+}
+
+.ion-laptop3 {
+	position: absolute;
+    top: 35px;
+	left: 340px;
+	font: menu;
+	font-size: 15px;
+}
+
+a:link, a:visited {
+	color: #333;
+	text-decoration: none;
+}
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+a.active, a:link.active, a:visited.active, a:hover.active {
+	color: #1f5ca1;
+	font-weight: 700;
+}
+
+.content {
+	border: 1px solid #000;
+	width: 100%;
+	height: 30%;
+	margin-top: 10px;
+	border-radius:15px;
+	box-shadow: 0 0 10px #000;
+	background: url(image/cristian-musolino-hVld5nXY-Ok-unsplash.jpg) 0 0 no-repeat fixed;
+	background-size: cover;
+}
+
+.cont {
+	border:0px solid #000;
+	width: 100%;
+	height: 100%;
+	margin-top:10px;
+	border-radius: 15px;
+}
+
+.cont1 {
+	border: 1px solid #1f5ca1;;
+	width: 33%;
+	height: 50%;
+	display: inline-block;
+	margin-right: 5px;
+	text-align:center ;
+}
+
+.cont2 {
+	border: 1px solid #1f5ca1;
+	width: 33%;
+	height: 50%;
+	display: inline-block;
+	margin-right: 5px;
+	
+	text-align:center ;
+}
+
+.cont3 {
+	border: 1px solid #1f5ca1;
+	width: 32%;
+	height: 50%;
+	display: inline-block;
+	margin-right: 2px;
+	text-align:center;
+}
+
+.footer {
+	border:1px solid #000;
+	width: 100%;
+	height: 40%;
+	border-radius:15px;
+	margin-top: -22%;
+	text-align: center;
+	color:#1f5ca1;
+}
